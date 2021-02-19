@@ -1,0 +1,29 @@
+{
+  "name": "ESP-Admin",
+  "keywords": "esp8266, esp32, admin panel",
+  "description": "Create admin panel for ESP Devices",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danvaly/ESP-Admin.git"
+  },
+  "authors": [
+    {
+      "name": "Valentin Ghica",
+      "email": "vali@danvaly.ro",
+      "maintainer": true
+    }
+  ],
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "espressif",
+  "dependencies": [
+    {
+      "name": "ESP Async WebServer",
+      "version": "1.2.3"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "6.17.0"
+    }
+  ]
+}
